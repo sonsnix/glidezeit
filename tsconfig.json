@@ -6,7 +6,13 @@
         "noImplicitReturns": true,
         "module": "es2015",
         "moduleResolution": "node",
-        "target": "es5"
+        "target": "es5",
+        "baseUrl": ".",
+        "paths": {
+            "plotly.js": [
+                "../node_modules/plotly.js/lib/core.js"
+            ]
+        }
     },
     "include": [
         "./src/**/*"

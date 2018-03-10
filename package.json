@@ -10,14 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vue": "git+https://github.com/DanielRosenwasser/vue.git#540a38fb21adb7a7bc394c65e23e6cffb36cd867"
+    "@types/plotly.js": "^1.28.12",
+    "plotly.js": "^1.35.2",
+    "vue": "^2.5.14",
+    "vuetify": "^1.0.6"
   },
   "devDependencies": {
     "css-loader": "^0.28.10",
     "ts-loader": "^4.0.1",
     "typescript": "^2.7.2",
     "vue-loader": "^14.2.1",
-    "vue-template-compiler": "^2.2.1",
+    "vue-template-compiler": "^2.5.14",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.11"
   }
