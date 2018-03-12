@@ -146,6 +146,7 @@ export default Vue.extend({
     },
     mounted: function() {
         this.setupSkewT();
+        this.requestForecastData();
     },
 });
 </script>
