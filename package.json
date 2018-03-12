@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "css-loader": "^0.28.10",
+    "style-loader": "^0.20.3",
     "ts-loader": "^4.0.1",
     "typescript": "^2.7.2",
     "vue-loader": "^14.2.1",
