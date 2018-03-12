@@ -28,8 +28,10 @@ export default Vue.extend({
         }
     },
     methods: {
+
     },
     computed: {
+        
     }
 });
 
