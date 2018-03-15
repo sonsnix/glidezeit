@@ -5,17 +5,20 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack --mode development",
+    "build:prod": "webpack --mode production",
+    "build:stats": "webpack --mode production --json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/plotly.js": "^1.28.12",
     "plotly.js": "^1.35.2",
     "vue": "^2.5.14",
     "vuetify": "^1.0.6"
   },
   "devDependencies": {
+    "@types/plotly.js": "^1.28.12",
+    "compression-webpack-plugin": "^1.1.11",
     "css-loader": "^0.28.10",
     "style-loader": "^0.20.3",
     "ts-loader": "^4.0.1",

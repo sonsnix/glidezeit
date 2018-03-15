@@ -45,9 +45,8 @@
 <script lang="ts">
 
 import Vue from "vue";
-import SkewT from "./SkewT.vue";
-import Controls from "./Controls.vue";
-import * as Plotly from "plotly.js";
+
+import * as Plotly from "plotly.js/lib/core";
 
 export default Vue.extend({
     data() : {constants: any, layout: Partial<Plotly.Layout>, plotData: Plotly.Data[], fcData: any, fcLocation: string, fcModel: string, fcModels: string[], skew: number, apiURL: string} {
@@ -139,7 +138,7 @@ export default Vue.extend({
             Plotly.plot("skew-chart", isothermTraces, this.layout, {displayModeBar: false});
         }
     },
-    components: { SkewT, Controls },
+    components: { },
     computed: {
     },
     created: function() {

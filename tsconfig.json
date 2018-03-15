@@ -9,9 +9,6 @@
         "target": "es5",
         "baseUrl": ".",
         "paths": {
-            "plotly.js": [
-                "../node_modules/plotly.js/lib/core.js"
-            ]
         }
     },
     "include": [
